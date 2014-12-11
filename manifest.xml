@@ -16,6 +16,6 @@
   -->
   <depend package="exoter/kinematics" />
   <depend package="drivers/orogen/platform_driver" />
-  <depend package="drivers/controldev" />
+  <depend package="drivers/orogen/controldev" />
   <depend package="base/orogen/types" />
 </package>
