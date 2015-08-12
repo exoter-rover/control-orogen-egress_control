@@ -4,10 +4,10 @@
 #define EGRESS_CONTROL_TASK_TASK_HPP
 
 #include "egress_control/TaskBase.hpp"
-#include "exoter/ExoterEgressTypes.hpp"
-#include "exoter/ExoterEgressControl.hpp"
+#include "exoter_kinematics/ExoterEgressTypes.hpp"
+#include "exoter_kinematics/ExoterEgressControl.hpp"
 
-using namespace exoter;
+using namespace exoter_kinematics;
 
 namespace egress_control {
 

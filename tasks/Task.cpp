@@ -4,7 +4,7 @@
 #include <iostream>
 
 using namespace egress_control;
-using namespace exoter;
+using namespace exoter_kinematics;
 
 Task::Task(std::string const& name)
     : TaskBase(name), deadmans_switch(true), kill_switch(false), constant_speed_mode(false), constant_speed(0.0d), swap_driving_direction(false), constant_height_offset_mode(true), constant_height_offset(0.5d), MAX_SPEED(0.09d)
