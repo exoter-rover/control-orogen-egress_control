@@ -7,6 +7,13 @@
 #include "exoter_kinematics/ExoterEgressTypes.hpp"
 #include "exoter_kinematics/ExoterEgressControl.hpp"
 
+/** Base types **/
+#include<base/commands/Joints.hpp>
+#include<base/samples/Joints.hpp>
+
+/** STD **/
+#include <vector>
+
 using namespace exoter_kinematics;
 
 namespace egress_control {
